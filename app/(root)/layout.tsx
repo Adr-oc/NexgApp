@@ -44,44 +44,24 @@ export default function RootLayout({
             <main
               id="content"
               role="main"
-              className="h-[100vh] relative max-w-3xl px-4 sm:px-6 lg:px-8 flex flex-col justify-center sm:items-center mx-auto w-full h-full before:absolute before:top-0 before:start-1/2 before:bg-[url('https://preline.co/assets/svg/examples/squared-bg-element-dark.svg')] before:bg-no-repeat before:bg-top before:w-full before:h-full before:-z-[1] before:transform before:-translate-x-1/2"
+              className="h-full relative max-w-3xl px-4 sm:px-6 lg:px-8 flex flex-col justify-center sm:items-center mx-auto w-full h-full before:absolute before:top-0 before:start-1/2 before:bg-[url('https://preline.co/assets/svg/examples/squared-bg-element-dark.svg')] before:bg-no-repeat before:bg-top before:w-full before:h-full before:-z-[1] before:transform before:-translate-x-1/2"
             >
-              <div className="text-center py-8 px-4 sm:px-6 lg:px-8">
-                <h1 className="text-2xl text-white sm:text-4xl">
-                  Get notified when we launch
-                </h1>
-                <h2 className="mt-1 sm:mt-3 text-4xl font-bold text-white sm:text-6xl">
-                  <span className="bg-clip-text bg-gradient-to-tr from-blue-600 to-purple-400 text-transparent">
-                    Preline PRO
-                  </span>
-                </h2>
+              <div className="flex items-center justify-center text-center py-8 px-4 sm:px-6 lg:px-8 h-[90vh]">
+                <div>
+                  <h1 className="text-2xl text-white sm:text-4xl">
+                    Get notified when we launch
+                  </h1>
 
-                <form>
-                  <div className="mt-8 space-y-4">
-                    <div>
-                      <div className="relative">
-                        <div className="absolute inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-4"></div>
-                      </div>
-                    </div>
-
-                    <div>
-                      <label htmlFor="email" className="sr-only">
-                        Email
-                      </label>
-                      <div className="relative"></div>
-                    </div>
-
-                    <div className="grid">
-                      <Link
-                        href="/sign-in"
-                        type="submit"
-                        className="sm:p-4 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-white/10 text-white hover:bg-white/20 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                      >
-                        Iniciar Sesion
-                      </Link>
-                    </div>
+                  <div>
+                    <Link
+                      href="/sign-in"
+                      type="submit"
+                      className="sm:p-4 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-white/10 text-white hover:bg-white/20 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                    >
+                      Iniciar Sesion
+                    </Link>
                   </div>
-                </form>
+                </div>
               </div>
             </main>
 
