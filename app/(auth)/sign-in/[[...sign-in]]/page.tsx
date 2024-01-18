@@ -14,7 +14,7 @@ export default function Page() {
             className="relative h-auto w-auto py-12"
           />
 
-          <div className="hidden lg:relative lg:block py-12 px-12">
+          <div className="hidden px-12 py-12 lg:relative lg:block">
             <a className="block text-white" href="/">
               <span className="sr-only">Home</span>
               <svg

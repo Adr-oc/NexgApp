@@ -22,6 +22,7 @@ export default function RootLayout({
     <ClerkProvider
       appearance={{
         baseTheme: {
+          ...dark,
           variables: {
             colorBackground: "#ffffff",
             colorInputBackground: "black",
@@ -59,20 +60,6 @@ export default function RootLayout({
           },
           formFieldInput: {
             backgroundColor: "transparent",
-          },
-          formButtonPrimary: {
-            backgroundColor: "#FFFFFF30",
-            fontSize: "12px",
-            textTransform: "none",
-            "&:focus": {
-              backgroundColor: "#FFFFFF15",
-            },
-            "&:active": {
-              backgroundColor: "#FFFFFF15",
-            },
-            "&:hover": {
-              backgroundColor: "#FFFFFF15",
-            },
           },
         },
       }}
