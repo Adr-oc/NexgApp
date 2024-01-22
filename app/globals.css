@@ -195,3 +195,12 @@
   border-radius: 12px;
   border: 1px solid rgba(26, 26, 26, 0.297);
 }
+
+.cl-signUp-emailCode{
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.513);
+  border-radius: 12px;
+  border: 1px solid rgba(26, 26, 26, 0.297);
+}
+
